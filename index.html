@@ -6,15 +6,8 @@
 		<meta name="author" content="LCC 3403 Team">
 		
 		<link href="bootstrap/docs/assets/css/bootstrap.css" rel="stylesheet">
-		<style type="text/css">
-		  body {
-			padding-top: 60px;
-			padding-bottom: 40px;
-		  }
-		  .sidebar-nav {
-			padding: 9px 0;
-		  }
-		</style>
+		<link href="style.css" rel="stylesheet">
+
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
 		<script type="text/javascript" src="bootstrap/js/bootstrap-tab.js"></script>
 
@@ -29,61 +22,61 @@
 					
 					<div class="nav-collapse">
 						<ul class="nav">
-							<li class="active"><a href="#">Home</a></li>
-							<li><a href="#about">About</a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
+		<div class="container-outer-1">
 		
-		<div class="container-fluid">
-			<div class="row-fluid">
-			
-				<!-- Here are the pills (stacked tabs) on the left of the page -->
-				<div class="span2">
-					<div class="well sidebar-nav">
-						<ul id="tab" class="nav nav-tabs nav-stacked"> <!-- Place tabs in li's here -->
-							<li class="active"><a href="#home" data-toggle="tab">Home</a></li>
-							<li><a href="#topic1" data-toggle="tab">Topic 1</a></li>
-							<li><a href="#topic2" data-toggle="tab">Topic 2</a></li>
-							<li><a href="#topic3" data-toggle="tab">Topic 3</a></li>
-						</ul>
-					</div>
-				</div>
+			<div class="container-fluid">
+				<div class="row-fluid">
 				
-				<!-- content space -->
-				<div class="span9">
-					<div id="myTabContent" class="tab-content">
-						<div class="tab-pane fade in active" id="home">
-							<div class="hero-unit">
-								<h1>Information Security</h1>
-								<p>This hurts us all.  Here are ways you can prevent you Identity from happening to you.</p>
-							</div>
-							<div class="span4">
-								<h2>Paragraph Title<h2>
-								<p>Describe topic</p>
-								<p><a class="btn btn-primary btn-large">Learn More &raquo;</a></p>
-							</div>
-							<div class="span4">
-								<h2>Paragraph Title<h2>
-								<p>Describe topic</p>
-								<p><a class="btn btn-primary btn-large">Learn More &raquo;</a></p>
-							</div>
-						</div>
-						<div class="tab-pane fade" id="topic1">
-						</div>
-						<div class="tab-pane fade" id="topic2">
-						</div>
-						<div class="tab-pane fade" id="topic3">
+					<!-- Here are the pills (stacked tabs) on the left of the page -->
+					<div class="span2">
+						<div class="well sidebar-nav">
+							<ul id="tab" class="nav nav-tabs nav-stacked"> <!-- Place tabs in li's here -->
+								<li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+								<li><a href="#topic1" data-toggle="tab">Topic 1</a></li>
+								<li><a href="#topic2" data-toggle="tab">Topic 2</a></li>
+								<li><a href="#topic3" data-toggle="tab">Topic 3</a></li>
+							</ul>
 						</div>
 					</div>
+					
+					<!-- content space -->
+					<div class="span9">
+						<div id="myTabContent" class="tab-content">
+							<div class="tab-pane fade in active" id="home">
+								<div class="hero-unit">
+									<h1>Identity Theft</h1>
+									<p>This hurts us all.  This is an overview of identity theft.</p>
+								</div>
+								<div class="span4">
+									<h2>Paragraph Title<h2>
+									<p>Intro content</p>
+								</div>
+								<div class="span4">
+									<h2>Paragraph Title<h2>
+									<p>Intro content</p>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="topic1">
+							</div>
+							<div class="tab-pane fade" id="topic2">
+							</div>
+							<div class="tab-pane fade" id="topic3">
+								<p><a class="btn btn-primary btn-large">Link to Site &raquo;</a></p>
+								<p><a class="btn btn-primary btn-large">Link to Site &raquo;</a></p>
+							</div>
+						</div>
+					</div>
+					<script type="text/javascript">
+						jQuery(document).ready(function ($) {
+							$('#tab').tab('show');
+						});
+					</script>    
 				</div>
-				<script type="text/javascript">
-					jQuery(document).ready(function ($) {
-						$('#tab').tab('show');
-					});
-				</script>    
 			</div>
 		</div>
 	</body>

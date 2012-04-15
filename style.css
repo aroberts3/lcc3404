@@ -1,0 +1,71 @@
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+	background-color:rgb(245,245,245);
+}
+
+a:focus{
+	outline:none;
+}
+a:hover{
+	outline:none;
+	border:0px;
+	color:rgb(255,255,255);
+}
+
+li{
+	border-radius:0px;
+}
+
+.btn{
+	margin-top:20px;
+}
+
+.hero-unit{
+	margin-top:20px;
+}
+
+.nav-tabs.nav-stacked{
+	border-left:1px solid rgb(221, 221, 221);
+}
+
+.nav-tabs.nav-stacked li a{
+	border:0px;
+	border-bottom:1px solid rgb(221, 221, 221)
+}
+
+.nav-tabs.nav-stacked li:last-child a, .nav-tabs.nav-stacked li:first-child a{
+	border-radius:0px;
+}
+.nav-tabs.nav-stacked li: first-child a{
+	border-top:1px;
+}
+
+.row-fluid{
+	background-color:rgb(255,255,255);
+	border: 0px;
+	
+}
+
+.span4{
+	position:relative;
+	margin-bottom:40px;
+	float:none;
+}
+
+
+.well.sidebar-nav {
+	position:relative;
+	height:100%;
+	padding: 0px;
+	border:0px;
+	box-shadow:0px;
+	border-radius:0px;
+	margin:0px;
+}
+
+.well.sidebar-nav li.active{
+	border-top:0px;
+	border-right:0px;
+	background-color:rgb(255,255,255);
+}
