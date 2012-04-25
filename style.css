@@ -47,10 +47,11 @@ li{
 	
 }
 
-.span4{
+.row-fluid .span4{
 	position:relative;
 	margin-bottom:40px;
 	float:none;
+	width: 100%
 }
 
 
