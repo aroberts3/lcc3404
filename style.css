@@ -68,6 +68,27 @@ li{
 	background-color:rgb(255,228,144);
 }
 
+.nav-list {
+	position:relative;
+	height:1000px;
+	padding: 0px;
+	border:0px;
+	box-shadow:0px;
+	border-radius:0px;
+	margin:0px;
+	background-color:rgb(255,228,144);
+}
+
+.nav-list>li>a{
+	margin-left:0;
+}
+
+.nav-list .active>a{
+	background-color:rgb(255,255,255);
+	color:rgb(0,0,0);
+	text-shadow:none;
+}
+
 .well.sidebar-nav li.active{
 	border-top:0px;
 	border-right:0px;
