@@ -11,7 +11,6 @@ a:focus{
 a:hover{
 	outline:none;
 	border:0px;
-	background-color:rgb(255,255,255);
 }
 
 li{
