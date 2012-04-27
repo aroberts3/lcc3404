@@ -1,7 +1,8 @@
 body {
 	padding-top: 60px;
 	padding-bottom: 40px;
-	background-color:rgb(245,245,245);
+	/*background-color:rgb(245,245,245);*/
+	background-color:rgb(255,228,144);
 }
 
 a:focus{
@@ -23,15 +24,16 @@ li{
 
 .hero-unit{
 	margin-top:20px;
+	background-color: rgb(255,244,211);
 }
 
 .nav-tabs.nav-stacked{
-	border-left:1px solid rgb(221, 221, 221);
+	border-left:1px solid rgb(255,244,211);
 }
 
 .nav-tabs.nav-stacked li a{
 	border:0px;
-	border-bottom:1px solid rgb(221, 221, 221)
+	border-bottom:1px solid rgb(255,244,211);
 }
 
 .nav-tabs.nav-stacked li:last-child a, .nav-tabs.nav-stacked li:first-child a{
@@ -57,12 +59,13 @@ li{
 
 .well.sidebar-nav {
 	position:relative;
-	height:100%;
+	height:1000px;
 	padding: 0px;
 	border:0px;
 	box-shadow:0px;
 	border-radius:0px;
 	margin:0px;
+	background-color:rgb(255,228,144);
 }
 
 .well.sidebar-nav li.active{
