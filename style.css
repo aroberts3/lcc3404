@@ -11,7 +11,7 @@ a:focus{
 a:hover{
 	outline:none;
 	border:0px;
-	color:rgb(255,255,255);
+	background-color:rgb(255,255,255);
 }
 
 li{
@@ -24,7 +24,8 @@ li{
 
 .hero-unit{
 	margin-top:20px;
-	background-color: rgb(255,244,211);
+	/*background-color: rgb(255,244,211);*/
+	background-color: rgb(255,239,192);
 }
 
 .nav-tabs.nav-stacked{
@@ -87,6 +88,11 @@ li{
 	background-color:rgb(255,255,255);
 	color:rgb(0,0,0);
 	text-shadow:none;
+}
+
+.nav-list>a:hover{
+	background-color:rgb(255,255,255);
+	color:rgb(0,0,0);
 }
 
 .well.sidebar-nav li.active{
